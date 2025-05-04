@@ -1,44 +1,67 @@
-# 📓 Notes App
+# 📓 Application de Notes
 
-Welcome to the Notes App! This is a simple and intuitive notes application built with React. It allows you to manage your notes efficiently with features for adding, displaying, editing, and deleting notes. 
+Bienvenue dans l'Application de Notes ! Il s'agit d'une application simple, intuitive et moderne construite avec **React**. Elle permet de gérer efficacement vos notes grâce à des fonctionnalités complètes comme l'ajout, l'affichage, la modification, la suppression et la consultation détaillée de chaque note.
 
-## Live Demo
-[Click here](https://notes-app-iota-drab-14.vercel.app/)
+---
 
-## 🛠 Features
+## 🛠 Fonctionnalités
 
-- **Add Notes** ✏️: Easily create new notes.
-- **Display Notes** 📋: View all your notes on the Home screen.
-- **Edit Notes** 📝: Update your notes as needed.
-- **Delete Notes** 🗑️: Remove notes you no longer need.
-- **View Note Content** 👁️: Click on a note to view its content directly on the Home screen.
-- **Routing** 🌐: Navigate through your notes with React Router DOM.
-- **Local Storage** 💾: Your notes are saved locally in your browser.
+- **➕ Ajouter une note** : Créez facilement de nouvelles notes avec un titre et un contenu.
+- **📋 Afficher toutes les notes** : Visualisez toutes vos notes directement sur la page d'accueil.
+- **👁️ Voir une note en détail** : Cliquez sur une note pour consulter son contenu complet dans une page dédiée.
+- **📝 Modifier une note** : Mettez à jour le contenu d'une note existante à tout moment.
+- **🗑️ Supprimer une note** : Supprimez les notes dont vous n’avez plus besoin.
+- **🕒 Date de création** : Chaque note affiche la date et l’heure de sa création.
+- **🌐 Navigation entre les pages** : Utilisez React Router DOM pour naviguer facilement entre les pages (Accueil, Voir, Éditer).
+- **💾 Sauvegarde locale (Local Storage)** : Vos notes sont enregistrées automatiquement dans le stockage local de votre navigateur, ce qui vous permet de les retrouver même après avoir fermé l’application.
+- **📦 Architecture modulaire** : Utilisation du `Context API` pour une gestion centralisée et propre des données.
+
+---
 
 ## 🔧 Installation
 
-To get started, clone the repository and install the dependencies:
+Pour commencer, clonez le dépôt et installez les dépendances nécessaires :
 
 ```bash
-git clone https://github.com/Tahrim19/Notes-app.git
+git clone https://github.com/Nestorservice/nootbook.git
 cd Notes-app
 npm install
-```
+🚀 Utilisation
+Lancez le serveur de développement :
 
-## 🚀 Usage
+bash
+Copy
+Edit
+npm start
+Ouvrez votre navigateur et accédez à l’adresse suivante :
 
-1. Start the development server:
+arduino
+Copy
+Edit
+http://localhost:3000
+🧠 Structure du Projet
+Home.jsx : Page d'accueil affichant toutes les notes
 
-    ```bash
-    npm start
-    ```
+AddNote.jsx : Composant pour ajouter une nouvelle note
 
-2. Open your browser and navigate to `http://localhost:3000`.
+EditNote.jsx : Composant pour modifier une note existante
 
-## 📚 Documentation
+ViewNote.jsx : Page pour afficher le détail complet d'une note (avec date)
 
-Check out the [Medium article](https://medium.com/@tarimbilal4/create-a-notes-app-using-react-and-local-storage-31c37261a288) for a detailed walkthrough of the project, including how to implement custom hooks and further customize the app. 
+NotesContext.jsx : Contexte global pour gérer toutes les notes
 
-## 🧩 Customization
+localStorage : Persistance des données dans le navigateur
 
-Feel free to customize the app to suit your needs. You can modify the stylesheets and add more features as desired.
+🧩 Personnalisation
+Tu peux personnaliser librement l’application selon tes besoins :
+
+Ajouter une recherche par mot-clé
+
+Filtrer ou trier les notes par date
+
+Ajouter des catégories ou des tags
+
+Améliorer le design avec des animations ou une interface responsive
+
+📚 Documentation
+Consulte l’article Medium pour un tutoriel détaillé incluant l’utilisation de hooks personnalisés et la personnalisation de l’interface.
