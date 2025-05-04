@@ -29,16 +29,11 @@ npm install
 🚀 Utilisation
 Lancez le serveur de développement :
 
-bash
-Copy
-Edit
 npm start
 Ouvrez votre navigateur et accédez à l’adresse suivante :
 
-arduino
-Copy
-Edit
 http://localhost:3000
+
 🧠 Structure du Projet
 Home.jsx : Page d'accueil affichant toutes les notes
 
