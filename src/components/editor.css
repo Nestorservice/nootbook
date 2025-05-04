@@ -1,0 +1,41 @@
+.editor-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.note-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-editor {
+    width: 100%;
+    height: 400px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.save-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.draw-panel {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.draw-tools button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
